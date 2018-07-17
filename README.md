@@ -57,7 +57,7 @@ To generate an new component
 ## Deploy the code at another server
 
 In Codebase config update:- 
-Firstly in two files of config 
+## Firstly in two files of config 
 * app/appConfig.js
 * server/config.js
 * update the base_url where the application is serverd.
@@ -68,7 +68,7 @@ set the port that is set for the node application in
 * module.exports = parseInt(argv.port || process.env.PORT || '3000', 10);
 * replace 3000 with new port number.
 
-Build process:- 
+## Build process:- 
 There are three packages global install in the environment. 
 * <a href="https://nodejs.org/en/download/">node 8.11.3</a> (to check type in terminal node -v)
 * <a href="https://nodejs.org/en/download/">npm 5.6.0</a> (to check type in terminal npm -v)
