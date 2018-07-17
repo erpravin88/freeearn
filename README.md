@@ -57,13 +57,13 @@ To generate an new component
 ## Deploy the code at another server
 
 In Codebase config update:- 
-1.Firstly in two files of config 
+Firstly in two files of config 
 * app/appConfig.js
 * server/config.js
 * update the base_url where the application is serverd.
 * BASE_URL like in "http://203.122.29.213:3061/tripdashboard" is "http://203.122.29.213:3061".
 
-2.set the port that is set for the node application in
+set the port that is set for the node application in
 * server/port.js
 * module.exports = parseInt(argv.port || process.env.PORT || '3000', 10);
 * replace 3000 with new port number.
