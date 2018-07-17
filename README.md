@@ -56,8 +56,8 @@ To generate an new component
 
 ## Deploy the code at another server
 
-In Codebase config update:- 
-## Firstly in two files of config 
+## In Codebase config update:- 
+Firstly in two files of config 
 * app/appConfig.js
 * server/config.js
 * update the base_url where the application is serverd.
