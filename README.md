@@ -58,21 +58,21 @@ To generate an new component
 
 In Codebase config update:- 
 Firstly in two files of config 
- app/appConfig.js
-server/config.js
-update the base_url where the application is serverd.
-BASE_URL like in "http://203.122.29.213:3061/tripdashboard" is "http://203.122.29.213:3061".
+* app/appConfig.js
+* server/config.js
+* update the base_url where the application is serverd.
+* BASE_URL like in "http://203.122.29.213:3061/tripdashboard" is "http://203.122.29.213:3061".
 
 set the port that is set for the node application in
-server/port.js
-module.exports = parseInt(argv.port || process.env.PORT || '3000', 10);
-replace 3000 with new port number.
+* server/port.js
+* module.exports = parseInt(argv.port || process.env.PORT || '3000', 10);
+* replace 3000 with new port number.
 
 Build process:- 
 There are three packages global install in the environment. 
-<a href="https://nodejs.org/en/download/">node 8.11.3</a> (to check type in terminal node -v)
-<a href="https://nodejs.org/en/download/">npm 5.6.0</a> (to check type in terminal npm -v)
-<a href="http://pm2.keymetrics.io/" >pm2 3.0.0</a> (to check type in terminal pm2 -v)
+* <a href="https://nodejs.org/en/download/">node 8.11.3</a> (to check type in terminal node -v)
+* <a href="https://nodejs.org/en/download/">npm 5.6.0</a> (to check type in terminal npm -v)
+* <a href="http://pm2.keymetrics.io/" >pm2 3.0.0</a> (to check type in terminal pm2 -v)
 1. npm install
 2. npm run build
 3. pm2 start server/index.js
